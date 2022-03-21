@@ -11,6 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://127.0.0.1:10807",
+    "https://celebstatic.pages.dev",
 ]
 
 app.add_middleware(
