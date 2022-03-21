@@ -10,8 +10,8 @@ from matplotlib import pyplot as plt
 model=joblib.load('assets/celebrityModel.joblib') 
 
 # loades facecascade
-face_cascade=cv2.CascadeClassifier('C:/haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade=cv2.CascadeClassifier('C:/haarcascades/haarcascade_eye.xml')
+face_cascade=cv2.CascadeClassifier('assets/haarcascade_frontalface_default.xml')
+eye_cascade=cv2.CascadeClassifier('assets/haarcascades/haarcascade_eye.xml')
 
 def getCroppedImage(img): 
     gray=cv2.cvtColor(img
